@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!--============= Fav Icon ===================-->
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/img/fav/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/fav/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/fav/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/img/fav/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="assets/img/fav/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Responsive Website Tvideoravel</title>
+  </head>
+  <body>
+    <div class="hero">
+      <video autoplay loop muted plays-inline class="bg__video">
+        <source src="assets/video/wadirum.mp4" type="video/mp4" />
+      </video>
+      <!-- <nav>
+        <img src="assets/img/logo.png" alt="" class="logo" />
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#discover">Discover</a></li>
+          <li><a href="#featured">Cars</a></li>
+
+          <li>
+            <span class="change-theme-name">Dark mode</span>
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+          </li>
+        </ul>
+      </nav> -->
+      <div class="content">
+        <h1>ARANDA</h1>
+        <a href="#about">Explore</a>
+      </div>
+    </div>
+    <header class="header" id="header">
+      <nav class="nav">
+        <a href="#" class="nav__logo"
+          ><img src="assets/img/logo.png" alt="" width="80px" height="800px"
+        /></a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#discover" class="nav__link">Discover</a>
+            </li>
+            <li class="nav__item">
+              <a href="#featured" class="nav__link">Car rental</a>
+            </li>
+          </ul>
+
+          <div class="nav__dark">
+            <span class="change-theme-name">Dark mode</span>
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+          </div>
+
+          <i class="ri-close-line nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <!-- <section class="home" id="home">
+                <img src="assets/img/home1.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Discover your place</span>
+                        <h1 class="home__data-title">Explore The <br> Best <b>Beautiful <br> Beaches</b></h1>
+                        <a href="#" class="button">Explore</a>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">5 best places to visit</span>
+                            <a href="" class="button button--flex button--link home__info-button">
+                                More <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="assets/img/home2.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title about__title">
+              More Information <br />
+              About Aranda
+            </h2>
+            <p class="about__description">
+              We are a professional Car rental & tour operator handling
+            </p>
+            <a href="tel:+962 7 9038 4841" class="button">Call to reserve</a>
+          </div>
+
+          <div class="about__img">
+            <div class="about__img-overlay">
+              <img
+                src="assets/img/aboutpetra.jpg"
+                alt=""
+                class="about__img-one"
+              />
+            </div>
+
+            <div class="about__img-overlay">
+              <img
+                src="assets/img/aboutjerash.jpg"
+                alt=""
+                class="about__img-two"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== DISCOVER ====================-->
+      <section class="discover section" id="discover">
+        <h2 class="section__title">
+          Discover the most <br />
+          attractive places
+        </h2>
+
+        <div class="discover__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--==================== DISCOVER 1 ====================-->
+            <div class="discover__card swiper-slide">
+              <img
+                src="assets/img/aboutpetra.jpg"
+                alt=""
+                class="discover__img"
+              />
+              <div class="discover__data">
+                <h2 class="discover__title">Petra</h2>
+              </div>
+            </div>
+
+            <!--==================== DISCOVER 2 ====================-->
+            <div class="discover__card swiper-slide">
+              <img
+                src="assets/img/aboutdeadsea.jpg"
+                alt=""
+                class="discover__img"
+              />
+              <div class="discover__data">
+                <h2 class="discover__title">Dead Sea</h2>
+              </div>
+            </div>
+
+            <!--==================== DISCOVER 3 ====================-->
+            <div class="discover__card swiper-slide">
+              <img
+                src="assets/img/aboutwadi.jpg"
+                alt=""
+                class="discover__img"
+              />
+              <div class="discover__data">
+                <h2 class="discover__title">Wadi Rum</h2>
+              </div>
+            </div>
+
+            <!--==================== DISCOVER 4 ====================-->
+            <div class="discover__card swiper-slide">
+              <img
+                src="assets/img/aboutjerash.jpg"
+                alt=""
+                class="discover__img"
+              />
+              <div class="discover__data">
+                <h2 class="discover__title">Jerash</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== EXPERIENCE ====================-->
+      <section class="experience section">
+        <h2 class="section__title">
+          With Our Experience <br />
+          We Will Serve You
+        </h2>
+
+        <div class="experience__container container grid">
+          <div class="experience__content grid">
+            <div class="experience__data">
+              <h2 class="experience__number">10</h2>
+              <span class="experience__description"
+                >Years <br />
+                Experience</span
+              >
+            </div>
+
+            <div class="experience__data"></div>
+
+            <div class="experience__data">
+              <h2 class="experience__number">50+</h2>
+              <span class="experience__description"
+                >Tourist <br />
+                Destination</span
+              >
+            </div>
+          </div>
+
+          <div class="experience__img grid">
+            <div class="experience__overlay">
+              <img
+                src="assets/img/experience1.jpg"
+                alt=""
+                class="experience__img-one"
+              />
+            </div>
+
+            <div class="experience__overlay">
+              <img
+                src="assets/img/experience2.jpg"
+                alt=""
+                class="experience__img-two"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== VIDEO ====================-->
+      <section class="video section">
+        <h2 class="section__title">Video Tour</h2>
+
+        <div class="video__container container">
+          <p class="video__description">
+            Find out more with our video of the most beautiful and pleasant
+            places for you and your family.
+          </p>
+
+          <div class="video__content">
+            <video id="video-file">
+              <source src="assets/video/video.mp4" type="video/mp4" />
+            </video>
+
+            <button class="button button--flex video__button" id="video-button">
+              <i class="ri-play-line video__button-icon" id="video-icon"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PLACES ====================-->
+      <!-- <section class="place section" id="place">
+
+        <h2 class="section__title">Choose Your Place</h2>
+
+        <div class="place__container container grid">
+
+          <div class="place__card">
+            <img src="assets/img/place1.jpg" alt="" class="place__img" />
+
+            <div class="place__content">
+              <span class="place__rating">
+                <i class="ri-star-line place__rating-icon"></i>
+                <span class="place__rating-number">4,8</span>
+              </span>
+
+              <div class="place__data">
+                <h3 class="place__title">Bali</h3>
+                <span class="place__subtitle">Indonesia</span>
+                <span class="place__price">$2499</span>
+              </div>
+            </div>
+
+            <button class="button button--flex place__button">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+
+
+          <div class="place__card">
+            <img src="assets/img/place2.jpg" alt="" class="place__img" />
+
+            <div class="place__content">
+              <span class="place__rating">
+                <i class="ri-star-line place__rating-icon"></i>
+                <span class="place__rating-number">5,0</span>
+              </span>
+
+              <div class="place__data">
+                <h3 class="place__title">Bora Bora</h3>
+                <span class="place__subtitle">Polinesia</span>
+                <span class="place__price">$1599</span>
+              </div>
+            </div>
+
+            <button class="button button--flex place__button">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+
+
+          <div class="place__card">
+            <img src="assets/img/place3.jpg" alt="" class="place__img" />
+
+            <div class="place__content">
+              <span class="place__rating">
+                <i class="ri-star-line place__rating-icon"></i>
+                <span class="place__rating-number">4,9</span>
+              </span>
+
+              <div class="place__data">
+                <h3 class="place__title">Hawaii</h3>
+                <span class="place__subtitle">EE.UU</span>
+                <span class="place__price">$3499</span>
+              </div>
+            </div>
+
+            <button class="button button--flex place__button">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+
+          <div class="place__card">
+            <img src="assets/img/place4.jpg" alt="" class="place__img" />
+
+            <div class="place__content">
+              <span class="place__rating">
+                <i class="ri-star-line place__rating-icon"></i>
+                <span class="place__rating-number">4,8</span>
+              </span>
+
+              <div class="place__data">
+                <h3 class="place__title">Whitehaven</h3>
+                <span class="place__subtitle">Australia</span>
+                <span class="place__price">$2499</span>
+              </div>
+            </div>
+
+            <button class="button button--flex place__button">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+
+
+          <div class="place__card">
+            <img src="assets/img/place5.jpg" alt="" class="place__img" />
+
+            <div class="place__content">
+              <span class="place__rating">
+                <i class="ri-star-line place__rating-icon"></i>
+                <span class="place__rating-number">4,8</span>
+              </span>
+
+              <div class="place__data">
+                <h3 class="place__title">Hvar</h3>
+                <span class="place__subtitle">Croacia</span>
+                <span class="place__price">$1999</span>
+              </div>
+            </div>
+
+            <button class="button button--flex place__button">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="featured section" id="featured">
+        <h2 class="section__title">Rental Cars</h2>
+
+        <div class="featured__container container">
+          <ul class="featured__filters container">
+            <li>
+              <button class="featured__item" data-filter="all">
+                <span>All</span>
+              </button>
+            </li>
+            <li>
+              <button class="featured__item" data-filter=".economy">
+                <span>Economy</span>
+              </button>
+            </li>
+            <li>
+              <button class="featured__item" data-filter=".luxury">
+                <span>Luxury</span>
+              </button>
+            </li>
+            <li>
+              <button class="featured__item" data-filter=".suv">
+                <span>SUV</span>
+              </button>
+            </li>
+          </ul>
+
+          <div class="featured__content grid" id="featured">
+            <article class="featured__card mix economy">
+              <div class="shape shape__smaller"></div>
+
+              <h1 class="featured__title">Tesla</h1>
+              <h3 class="featured__subtitle">Model X</h3>
+
+              <img
+                src="assets/img/featured1.png"
+                alt=""
+                class="featured__img"
+              />
+
+              <button
+                class="button featured__button"
+                onclick="window.location.href='tel:+962 7 9038 4841'"
+              >
+                <i class="ri-phone-fill"></i>
+              </button>
+            </article>
+
+            <article class="featured__card mix economy">
+              <div class="shape shape__smaller"></div>
+
+              <h1 class="featured__title">Tesla</h1>
+              <h3 class="featured__subtitle">Model 3</h3>
+
+              <img
+                src="assets/img/featured2.png"
+                alt=""
+                class="featured__img"
+              />
+
+              <button
+                class="button featured__button"
+                onclick="window.location.href='tel:+962 7 9038 4841'"
+              >
+                <i class="ri-phone-fill"></i>
+              </button>
+            </article>
+
+            <article class="featured__card mix suv">
+              <div class="shape shape__smaller"></div>
+
+              <h1 class="featured__title">Audi</h1>
+              <h3 class="featured__subtitle">E-tron</h3>
+
+              <img
+                src="assets/img/featured3.png"
+                alt=""
+                class="featured__img"
+              />
+
+              <button
+                class="button featured__button"
+                onclick="window.location.href='tel:+962 7 9038 4841'"
+              >
+                <i class="ri-phone-fill"></i>
+              </button>
+            </article>
+
+            <article class="featured__card mix luxury">
+              <div class="shape shape__smaller"></div>
+
+              <h1 class="featured__title">Porche</h1>
+              <h3 class="featured__subtitle">Boxster 987</h3>
+
+              <img
+                src="assets/img/featured4.png"
+                alt=""
+                class="featured__img"
+              />
+
+              <button
+                class="button featured__button"
+                onclick="window.location.href='tel:+962 7 9038 4841'"
+              >
+                <i class="ri-phone-fill"></i>
+              </button>
+            </article>
+
+            <article class="featured__card mix luxury">
+              <div class="shape shape__smaller"></div>
+
+              <h1 class="featured__title">Porche</h1>
+              <h3 class="featured__subtitle">Panamera</h3>
+
+              <img
+                src="assets/img/featured5.png"
+                alt=""
+                class="featured__img"
+              />
+
+              <button
+                class="button featured__button"
+                onclick="window.location.href='tel:+962 7 9038 4841'"
+              >
+                <i class="ri-phone-fill"></i>
+              </button>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!--==================== SUBSCRIBE ====================-->
+      <!-- <section class="subscribe section">
+        <div class="subscribe__bg">
+          <div class="subscribe__container container">
+            <h2 class="section__title subscribe__title">
+              Subscribe Our <br />
+              Newsletter
+            </h2>
+            <p class="subscribe__description">
+              Subscribe to our newsletter and get a special 30% discount.
+            </p>
+
+            <form action="" class="subscribe__form">
+              <input
+                type="text"
+                placeholder="Enter email"
+                class="subscribe__input"
+              />
+
+              <button class="button">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="section">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32193.486565889296!2d35.885603576893566!3d31.99009107443345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca0025bc5a6ad%3A0x795c2f320a2da369!2sAranda%20For%20VIP%20Services!5e0!3m2!1sen!2sae!4v1662366668617!5m2!1sen!2sae"
+          style="border: 0; width: 100vw; height: 500px"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+      <!--==================== SPONSORS ====================-->
+      <!-- <section class="sponsor section">
+        <div class="sponsor__container container grid">
+          <div class="sponsor__content">
+            <img src="assets/img/sponsors1.png" alt="" class="sponsor__img" />
+          </div>
+          <div class="sponsor__content">
+            <img src="assets/img/sponsors2.png" alt="" class="sponsor__img" />
+          </div>
+          <div class="sponsor__content">
+            <img src="assets/img/sponsors3.png" alt="" class="sponsor__img" />
+          </div>
+          <div class="sponsor__content">
+            <img src="assets/img/sponsors4.png" alt="" class="sponsor__img" />
+          </div>
+          <div class="sponsor__content">
+            <img src="assets/img/sponsors5.png" alt="" class="sponsor__img" />
+          </div>
+        </div>
+      </section> -->
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content grid">
+          <div class="footer__data">
+            <h3 class="footer__title">Aranda</h3>
+            <p class="footer__description">
+              you choose the <br />
+              destination, we offer you the <br />
+              experience.
+            </p>
+            <div>
+              <a
+                href="https://www.facebook.com/arandavip/"
+                target="_blank"
+                class="footer__social"
+              >
+                <i class="ri-facebook-box-fill"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer__data">
+            <ul>
+              <li class="footer__item">
+                <a href="#about" class="footer__link">About Us</a>
+              </li>
+              <li class="footer__item">
+                <a href="#discover" class="footer__link">Discover</a>
+              </li>
+              <li class="footer__item">
+                <a href="#featured" class="footer__link">Rent Car</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXIT UP ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
