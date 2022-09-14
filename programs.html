@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/grid.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="product-collection">
+      <div class="container">
+        <div class="product-collection-wrapper">
+          <!-- product col left -->
+          <div class="product-col-left flex">
+            <div class="product-col-content">
+              <h2 class="sm-title">6 Days - 5 Nights</h2>
+              <h2 class="md-title">Petra Grand</h2>
+              <p class="text-light">
+                Amman - Jerash - Madaba - Mt. Nebo - Kerak - Petra - Wadi Rum -
+                Dead Sea
+              </p>
+              <button
+                type="button"
+                class="btn-dark"
+                onclick="window.location.href = 'program4.html'"
+              >
+                View
+              </button>
+            </div>
+          </div>
+
+          <!-- product col right -->
+          <div class="product-col-right">
+            <div class="product-col-r-top flex">
+              <div class="product-col-content">
+                <h2 class="sm-title">4 Days - 3 Nights</h2>
+                <h2 class="md-title">Express Jordan</h2>
+                <p class="text-light">
+                  Petra - Wadi Rum - Dead Sea - Amman - Jerash
+                </p>
+                <button
+                  type="button"
+                  class="btn-dark"
+                  onclick="window.location.href = 'program2.html'"
+                >
+                  View
+                </button>
+              </div>
+            </div>
+
+            <div class="product-col-r-bottom">
+              <!-- left -->
+              <div class="flex">
+                <div class="product-col-content">
+                  <h2 class="sm-title">5 Days - 4 Nights</h2>
+                  <h2 class="md-title">Explore Jordan</h2>
+                  <p class="text-light">
+                    Amman - Jerash - Mt. Nebo - Kerak - Petra - Wadi Rum - Dead
+                    Sea
+                  </p>
+                  <button
+                    type="button"
+                    class="btn-dark"
+                    onclick="window.location.href = 'program3.html'"
+                  >
+                    View
+                  </button>
+                </div>
+              </div>
+              <!-- right -->
+              <div class="flex">
+                <div class="product-col-content">
+                  <h2 class="sm-title">3 Days - 2 Nights</h2>
+                  <h2 class="md-title">Taste of Jordan</h2>
+                  <p class="text-light">Petra - Wadi Rum - Dead Sea</p>
+                  <button
+                    type="button"
+                    class="btn-dark"
+                    onclick="window.location.href = 'program1.html'"
+                  >
+                    View
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script>
+      sr.reveal(`.btn-dark`, {
+        origin: "top",
+        interval: 100,
+      });
+
+      sr.reveal(`.product-col-left `, {
+        origin: "left",
+        interval: 100,
+      });
+    </script>
+  </body>
+</html>
