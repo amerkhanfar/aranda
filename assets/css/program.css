@@ -212,6 +212,7 @@ img {
   overflow: hidden;
 }
 .img-showcase {
+  height: 60vh;
   display: flex;
   width: 100%;
   transition: all 0.5s ease;
